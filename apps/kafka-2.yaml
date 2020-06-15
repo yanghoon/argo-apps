@@ -15,7 +15,7 @@ spec:
     helm:
       values: |-
         global:
-          namespace: kafaka-2
+          namespace: kafka-2
         apps:
           kafka:
             parameters:
