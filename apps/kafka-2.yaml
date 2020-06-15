@@ -14,4 +14,5 @@ spec:
     chart: argo-app-kafka
     helm:
       parameters:
-        global.namespace: kafka-2
+      - name: global.namespace
+        value: kafka-2
