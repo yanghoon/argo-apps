@@ -20,6 +20,8 @@ spec:
           kafka:
             parameters:
               service.nodePort: 30094
+          kafka-manager:
+            enable: false
       # parameters:
       # - name: global.namespace
       #   value: kafka-2
