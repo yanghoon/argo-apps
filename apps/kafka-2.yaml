@@ -16,5 +16,5 @@ spec:
       parameters:
       - name: global.namespace
         value: kafka-2
-      - name: apps.kafka.parameters.service.nodePort
+      - name: apps.kafka.parameters.service\.nodePort
         value: "30093"
