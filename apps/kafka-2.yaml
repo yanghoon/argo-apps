@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: 'https://yanghoon.github.io/charts'
-    targetRevision: 0.1.0
+    targetRevision: 0.1.*
     chart: argo-app-kafka
     helm:
       values: |-
