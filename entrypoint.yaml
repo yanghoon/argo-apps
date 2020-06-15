@@ -8,7 +8,7 @@ spec:
     namespace: argo
     server: https://kubernetes.default.svc
   source:
-    repoURL: 'https://github.com/yanghoon/argo-app-kafka.git'
+    repoURL: 'https://github.com/yanghoon/argo-apps.git'
     targetRevision: HEAD
     path: .
     directory:
