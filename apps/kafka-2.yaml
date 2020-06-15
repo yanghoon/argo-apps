@@ -12,3 +12,6 @@ spec:
     repoURL: 'https://yanghoon.github.io/charts'
     targetRevision: 0.1.0
     chart: argo-app-kafka
+    helm:
+      parameters:
+        global.namespace: kafka-2
