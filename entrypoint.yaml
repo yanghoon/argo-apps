@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: 'https://github.com/yanghoon/argo-apps.git'
     targetRevision: HEAD
-    path: .
+    path: apps
     directory:
       recurse: true
   syncPolicy:
