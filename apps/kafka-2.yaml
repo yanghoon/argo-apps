@@ -13,8 +13,20 @@ spec:
     targetRevision: 0.1.0
     chart: argo-app-kafka
     helm:
-      parameters:
-      - name: global.namespace
-        value: kafka-2
-      - name: apps.kafka.parameters.service\.nodePort
-        value: "30093"
+      values: |-
+        global:
+          namespace: kafaka-2
+        apps:
+          kafka:
+            parameters:
+              service.nodePort: 30094
+      # parameters:
+      # - name: global.namespace
+      #   value: kafka-2
+      # - name: apps.kafka.parameters.service\.nodePort
+      #   value: "30093"
+  syncPolicy:
+    automated:
+      automated:
+        prune: false
+        selfHeal: false
